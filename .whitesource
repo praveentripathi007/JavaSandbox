@@ -1,0 +1,13 @@
+{
+  "settingsInheritedFrom": "Dima2021/whitesource-config@master",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": true
+    },
+    "enableRenovate": false,
+    "extends": [
+      "config:base",
+      "github>whitesource/merge-confidence:beta"
+    ]
+  }
+}
